@@ -13,7 +13,7 @@ bots:
     command-support: true
     command-prefix: "-"
     token: "YOUR BOT TOKEN HERE"
-    enabled: false
+    enabled: true
     addons:
     - "spicord::info"
     - "spicord::plugins"
@@ -29,7 +29,7 @@ bots:
 enable-debug-messages: true
 
 ##> Change the value to "true" if you want to enable the JDA messages.
-enable-jda-messages: false
+enable-jda-messages: true
 
 ##> Do not change this.
 config-version: 1
